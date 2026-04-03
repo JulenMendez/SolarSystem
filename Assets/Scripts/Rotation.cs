@@ -5,7 +5,7 @@ public class Rotation : MonoBehaviour
 {
 
     public Vector3 rotationVector;
-    public float velocity;
+    public float rotationVelocity;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -17,6 +17,6 @@ public class Rotation : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        this.transform.rotation *= Quaternion.Euler(rotationVector * velocity * Time.deltaTime);
+        this.transform.rotation *= Quaternion.Euler(rotationVector * rotationVelocity * Time.deltaTime);
     }
 }

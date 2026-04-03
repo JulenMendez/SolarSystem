@@ -149,7 +149,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 228}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 8.76, y: 8.76, z: 8.76}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1345073572}
@@ -166,8 +166,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db44019d1f39055489cf98d253643b6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rotation
-  rotationVector: {x: 0, y: 1, z: 0}
-  rotationVelocity: 1
+  rotationVector: {x: 0, y: -1, z: 0}
+  rotationVelocity: 0.2408
 --- !u!65 &59783795
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -276,7 +276,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 2871}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 8.76, y: 8.76, z: 8.76}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1345073572}
@@ -293,8 +293,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db44019d1f39055489cf98d253643b6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rotation
-  rotationVector: {x: 0, y: 1, z: 0}
-  rotationVelocity: 1
+  rotationVector: {x: 1, y: 0, z: 0}
+  rotationVelocity: 2.5875
 --- !u!65 &206231745
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -403,7 +403,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 1427}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 8.76, y: 8.76, z: 8.76}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1345073572}
@@ -420,8 +420,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db44019d1f39055489cf98d253643b6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rotation
-  rotationVector: {x: 0, y: 1, z: 0}
-  rotationVelocity: 1
+  rotationVector: {x: 0, y: -1, z: 0}
+  rotationVelocity: 10.0179
 --- !u!65 &312518869
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -587,7 +587,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 3, z: 2720}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -794,7 +794,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 4498}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 8.76, y: 8.76, z: 8.76}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1345073572}
@@ -811,8 +811,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db44019d1f39055489cf98d253643b6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rotation
-  rotationVector: {x: 0, y: 1, z: 0}
-  rotationVelocity: 1
+  rotationVector: {x: 0, y: -1, z: 0}
+  rotationVelocity: 2.6869
 --- !u!65 &559950857
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -921,7 +921,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 778}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 8.76, y: 8.76, z: 8.76}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1345073572}
@@ -938,8 +938,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db44019d1f39055489cf98d253643b6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rotation
-  rotationVector: {x: 0, y: 1, z: 0}
-  rotationVelocity: 1
+  rotationVector: {x: 0, y: -1, z: 0}
+  rotationVelocity: 12.572
 --- !u!65 &590361103
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1125,8 +1125,8 @@ Transform:
   m_GameObject: {fileID: 827188408}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -11}
+  m_LocalScale: {x: 8.76, y: 8.76, z: 8.76}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1345073572}
@@ -1301,7 +1301,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 58}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 8.76, y: 8.76, z: 8.76}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1345073572}
@@ -1318,8 +1318,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db44019d1f39055489cf98d253643b6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rotation
-  rotationVector: {x: 0, y: 1, z: 0}
-  rotationVelocity: 1
+  rotationVector: {x: 0, y: -1, z: 0}
+  rotationVelocity: 0.003
 --- !u!1 &1312049238
 GameObject:
   m_ObjectHideFlags: 0
@@ -1350,7 +1350,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 108}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 8.76, y: 8.76, z: 8.76}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1345073572}
@@ -1368,7 +1368,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rotation
   rotationVector: {x: 0, y: 1, z: 0}
-  rotationVelocity: 1
+  rotationVelocity: 0.0018
 --- !u!65 &1312049241
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1517,7 +1517,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 150}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 8.76, y: 8.76, z: 8.76}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1345073572}
@@ -1534,8 +1534,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db44019d1f39055489cf98d253643b6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rotation
-  rotationVector: {x: 0, y: 1, z: 0}
-  rotationVelocity: 1
+  rotationVector: {x: 0, y: -1, z: 0}
+  rotationVelocity: 0.4651
 --- !u!65 &1497734551
 BoxCollider:
   m_ObjectHideFlags: 0

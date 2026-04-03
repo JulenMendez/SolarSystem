@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class TimeControler : MonoBehaviour
 {
-    public float newTimeScale;
+    [Range(0,100)] public float newTimeScale;
 
     // Update is called once per frame
     void Update()
@@ -11,6 +11,11 @@ public class TimeControler : MonoBehaviour
         if (newTimeScale < 0)
         {
             newTimeScale = 0;
+        }
+
+        if(newTimeScale > 100)
+        {
+            newTimeScale = 100;
         }
 
         Time.timeScale = newTimeScale;

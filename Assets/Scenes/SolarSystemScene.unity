@@ -1627,7 +1627,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4c740a5294e0a04d9d241e25f6174f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Translation
-  ellipsePoints: []
+  ellipseSegments: 50
+  avgSunDistance: 150
+  e: 0.01671022
+  orbitalPeriod: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

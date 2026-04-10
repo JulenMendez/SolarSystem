@@ -1628,9 +1628,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Translation
   ellipsePoints: []
-  _ellipseSegments: 30
-  _xScale: 149
-  _zScale: 150
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

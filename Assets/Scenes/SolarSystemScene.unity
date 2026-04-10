@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 59783796}
   - component: {fileID: 59783795}
   - component: {fileID: 59783794}
+  - component: {fileID: 59783798}
   m_Layer: 0
   m_Name: Mars
   m_TagString: Untagged
@@ -246,6 +247,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 59783792}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &59783798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59783792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c740a5294e0a04d9d241e25f6174f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Translation
+  ellipseSegments: 50
+  avgSunDistance: 228
+  e: 0.09341233
+  orbitalPeriod: 1.8808476
 --- !u!1 &206231742
 GameObject:
   m_ObjectHideFlags: 0
@@ -259,6 +276,7 @@ GameObject:
   - component: {fileID: 206231746}
   - component: {fileID: 206231745}
   - component: {fileID: 206231744}
+  - component: {fileID: 206231748}
   m_Layer: 0
   m_Name: Uranus
   m_TagString: Untagged
@@ -373,6 +391,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 206231742}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &206231748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206231742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c740a5294e0a04d9d241e25f6174f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Translation
+  ellipseSegments: 50
+  avgSunDistance: 2871
+  e: 0.04716771
+  orbitalPeriod: 84.016846
 --- !u!1 &312518866
 GameObject:
   m_ObjectHideFlags: 0
@@ -386,6 +420,7 @@ GameObject:
   - component: {fileID: 312518870}
   - component: {fileID: 312518869}
   - component: {fileID: 312518868}
+  - component: {fileID: 312518872}
   m_Layer: 0
   m_Name: Saturn
   m_TagString: Untagged
@@ -500,6 +535,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 312518866}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &312518872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312518866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c740a5294e0a04d9d241e25f6174f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Translation
+  ellipseSegments: 50
+  avgSunDistance: 1427
+  e: 0.0541506
+  orbitalPeriod: 29.447498
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -777,6 +828,7 @@ GameObject:
   - component: {fileID: 559950858}
   - component: {fileID: 559950857}
   - component: {fileID: 559950856}
+  - component: {fileID: 559950860}
   m_Layer: 0
   m_Name: Neptune
   m_TagString: Untagged
@@ -891,6 +943,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 559950854}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &559950860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559950854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c740a5294e0a04d9d241e25f6174f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Translation
+  ellipseSegments: 50
+  avgSunDistance: 4498
+  e: 0.00858587
+  orbitalPeriod: 164.79132
 --- !u!1 &590361100
 GameObject:
   m_ObjectHideFlags: 0
@@ -904,6 +972,7 @@ GameObject:
   - component: {fileID: 590361104}
   - component: {fileID: 590361103}
   - component: {fileID: 590361102}
+  - component: {fileID: 590361106}
   m_Layer: 0
   m_Name: Jupiter
   m_TagString: Untagged
@@ -1018,6 +1087,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 590361100}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &590361106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590361100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c740a5294e0a04d9d241e25f6174f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Translation
+  ellipseSegments: 50
+  avgSunDistance: 778
+  e: 0.04839266
+  orbitalPeriod: 11.862615
 --- !u!1 &827188408
 GameObject:
   m_ObjectHideFlags: 0
@@ -1206,6 +1291,7 @@ GameObject:
   - component: {fileID: 868182731}
   - component: {fileID: 868182730}
   - component: {fileID: 868182734}
+  - component: {fileID: 868182735}
   m_Layer: 0
   m_Name: Mercury
   m_TagString: Untagged
@@ -1320,6 +1406,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Rotation
   rotationVector: {x: 0, y: -1, z: 0}
   rotationVelocity: 0.003
+--- !u!114 &868182735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868182729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c740a5294e0a04d9d241e25f6174f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Translation
+  ellipseSegments: 50
+  avgSunDistance: 58
+  e: 0.20563069
+  orbitalPeriod: 0.2408467
 --- !u!1 &1312049238
 GameObject:
   m_ObjectHideFlags: 0
@@ -1333,6 +1435,7 @@ GameObject:
   - component: {fileID: 1312049242}
   - component: {fileID: 1312049241}
   - component: {fileID: 1312049240}
+  - component: {fileID: 1312049244}
   m_Layer: 0
   m_Name: Venus
   m_TagString: Untagged
@@ -1447,6 +1550,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1312049238}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1312049244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312049238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c740a5294e0a04d9d241e25f6174f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Translation
+  ellipseSegments: 50
+  avgSunDistance: 108
+  e: 0.0677323
+  orbitalPeriod: 0.61519724
 --- !u!1 &1345073571
 GameObject:
   m_ObjectHideFlags: 0
@@ -1630,7 +1749,7 @@ MonoBehaviour:
   ellipseSegments: 50
   avgSunDistance: 150
   e: 0.01671022
-  orbitalPeriod: 1
+  orbitalPeriod: 1.0000174
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

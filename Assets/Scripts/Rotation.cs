@@ -11,7 +11,7 @@ public class Rotation : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        rotationVelocity *= 1000000;
     }
 
     // Update is called once per frame

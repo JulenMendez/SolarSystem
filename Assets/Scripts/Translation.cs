@@ -23,6 +23,11 @@ public class Translation : MonoBehaviour
         _xScale = avgSunDistance * Mathf.Sqrt(1 - Mathf.Pow(e, 2));
 
         CalculateEllipse();
+        
+        _origin = _ellipsePoints[counter];
+        _destiny = _ellipsePoints[counter + 1];
+
+        this.transform.position = _origin;
     }
 
 
@@ -32,16 +37,16 @@ public class Translation : MonoBehaviour
         this.GetComponent<MeshRenderer>().material.color = Color.blue;
 
         _orbitalPeriofSeconds = (orbitalPeriod * 365 * 24 * 60 * 60)/1000000;
-        _origin = _ellipsePoints[counter];
-        _destiny = _ellipsePoints[counter + 1];
-
-        this.transform.position = _origin;
+        
 
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        _origin.y = this.transform.position.y;
+        _destiny.y = this.transform.position.y;
         move(_origin, _destiny);
 
         if (this.transform.position == _destiny)

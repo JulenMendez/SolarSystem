@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
+    [Tooltip("The speed of the solar system movement in Y axis")]
     public float velocity = 0.0001f;
 
     // Update is called once per frame

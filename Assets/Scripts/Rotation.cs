@@ -8,13 +8,12 @@ public class Rotation : MonoBehaviour
     public float rotationVelocity;
 
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        //Upscaled so we don't have to wait a year to see the earth rotate
         rotationVelocity *= 1000000;
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
         this.transform.rotation *= Quaternion.Euler(rotationVector * rotationVelocity * Time.deltaTime);
